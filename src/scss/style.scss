@@ -1,0 +1,248 @@
+/* variables */
+$font-color: #9FA2B4;
+$text-blue: #3751FF;
+$border-color: #DFE0EB;
+
+/* mixins */
+@mixin border-box-sizing {
+  box-sizing: border-box;
+}
+
+@mixin center-max-width {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  @include border-box;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+header,
+.mt-4,
+.tickets-and-tasks {
+  @include center-max-width;
+}
+
+.container-fluid,
+.row,
+.card,
+.d-flex,
+.text-center,
+.text-left,
+.text-right,
+.card3,
+.card1,
+.py-3,
+.px-4,
+.container1,
+.tasks,
+.unresolved-tickets {
+  @include border-box;
+}
+
+
+.row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+
+.main {
+    font-family: Mulish;
+    line-height: normal;
+    letter-spacing: 0.4px;
+  }
+  
+  .sidebar-font {
+    color: #A4A6B3;
+    font-size: 16px;
+  }
+  
+  .sidebar {
+    background-color: #363740;
+  }
+  
+  .container {
+    background-color: #F7F8FC;
+  }
+  
+  .nav-item {
+    border-left: 3px solid #DDE2FF;
+  }
+  
+  .selected {
+    background-color: $font-color;
+    opacity: 0.08;
+    margin-left: -22px;
+  }
+  
+  .dash {
+    color: #A4A6B3;
+  }
+  
+
+  
+  .legend-bar {
+    width: 16px;
+    height: 2px;
+  }
+  
+  .legend-text {
+    font-size: 12px;
+    color: $font-color;
+  }
+  
+  .mbt {
+    font-size: 16px;
+    color: $font-color;
+  }
+  
+  .mbt2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+
+  /* Header */
+  .container-fluid {
+    margin-top: 36px; 
+  }
+  
+  
+  .search {
+    width: 16px;
+    height: 16px;
+    margin-right: 24px;
+  }
+  
+  .notifications {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .bar {
+    width: 1px;
+    height: 32px;
+    margin: 0 34px;
+    color: $border-color;
+  }
+  
+  .name {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    margin-right: 14px;
+  }
+  
+  .photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid $border-color;
+    padding: 5px;
+  }
+
+  
+  /* CARDS */
+
+  .card {
+    margin: 30px;
+    border-radius: 8px;
+    border: 1px solid $border-color;
+  }
+  
+  .text-grey {
+    color: $font-color;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    margin: 0;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-title1 {
+    font-weight: bold;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .card-text {
+    margin-bottom: 10px;
+  }
+  
+  #card2 {
+    border-color: $text-blue;
+  }
+  
+  #overdue, #sixteen {
+    color: $text-blue;
+  }
+  /* Nesting */
+  .card3 {
+    width: 1150px;
+    height: 546px;
+    flex-shrink: 0;
+    margin: 30px;
+    border-radius: 8px;
+    border: 1px solid $border-color;
+    flex-direction: column;
+    background-color: white;
+    
+      .text-grey1 {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        color: $font-color;
+      }
+    
+      #pointing-hand{
+        top: 100px; left: 178px;
+
+    }
+  }
+
+  /* Tickets Tasks */
+  .container1 {
+    padding-left: 32px; 
+    padding-right: 32px
+  }
+  
+  .ticket-name {
+    margin-bottom:18px; 
+    margin-top: 20px;
+    color: #252733; 
+    font-size: 14px; 
+    font-family: Mulish; 
+    font-weight: 600; 
+    line-height: 20px; 
+    letter-spacing: 0.20px; 
+    word-wrap: break-word;
+  }
+
+  .ticket-number {
+    margin-bottom:18px; 
+    margin-top: 20px;
+    text-align: right; 
+    color: $font-color; 
+    font-size: 14px; 
+    font-weight: 600; 
+    line-height: 20px; 
+    letter-spacing: 0.20px; 
+    word-wrap: break-word;
+  }
+
+  .checkbox {
+    width: 20px;
+    height: 20px;
+  }
