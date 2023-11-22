@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <title>Bootstrap Assignment</title>
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet"> 
+      <link rel="stylesheet" href="/assets/css/style.css" />
+
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+      
+  </head>
+  <body>
+      <!-- Sidebar -->
+      <main class="main d-flex" style="min-height: 100vh; background-color: #f7f8fc;">
+        <aside class="sidebar d-flex flex-column flex-shrink-0 col-md-2">
+          <a class="d-flex align-items-center text-white text-decoration-none pb-4" style="margin: 32px">
+            <img src="assets/images/logo.png" width="32px" height="32px"/>
+            <span class="fs-5 ms-3 dash">Dashboard Kit</span>
+          </a>
+          <ul class="sidebar-font p-0">
+            <li class="nav-item p-4 position-relative">
+              <img class="me-3 mb-1" src="assets/images/overview.png" width="16px" height="16px"/>
+              <span>Overview</span>
+              <div class="position-absolute top-0 left-0 w-100 h-100 selected"></div>
+            </li>
+            <li class="p-4">
+              <img class="me-3 mb-1" src="assets/images/2. tickets.png" width="16px" height="16px"/>
+              Tickets
+            </li>
+            <li class="p-4">
+              <img class="me-3 mb-1" src="assets/images/3. ideas.png" width="16px" height="16px"/>
+              Ideas
+            </li>
+            <li class="p-4">
+              <img class="me-3 mb-1" src="assets/images/4. contacts.png" width="16px" height="16px"/>
+              Contacts
+            </li>
+            <li class="p-4">
+              <img class="me-3 mb-1" src="assets/images/5. agents.png" width="16px" height="16px"/>
+              Agents
+            </li>
+            <li class="p-4">
+              <img class="me-3 mb-1" src="assets/images/6. articles.png" width="16px" height="16px"/>
+              Articles
+            </li>
+            <li class="border-top my-3" style="border-color: #DFE0EB; opacity: 0.06;"></li>
+            <li class="p-4">
+              <img class="me-3 mb-1" src="assets/images/a_1. settings.png" width="16px" height="16px"/>
+              Settings
+            </li>
+            <li class="p-4">
+              <img class="me-3 mb-1" src="assets/images/a_2. subscription.png" width="16px" height="16px"/>
+              Subscription
+            </li>
+          </ul>
+        </aside>
+
+        <!--Overview-->
+
+        <div class="container" >
+          <header class="container-fluid p-0 d-flex justify-content-between align-items-center">
+            <div class="col-auto">
+              <span class="fs-4 p-3 font-weight-bold">Overview</span>
+            </div>
+          
+            <div class="col-auto d-flex align-items-center header-default">
+              <img class="search" alt="" src="/assets/images/search.png" width="16" height="16">
+              <img class="notifications" alt="" src="/assets/images/new.png" width="16" height="16">
+              <div>
+                <img class="bar" alt="" src="/assets/images/vertical.png" height="24">
+              </div>
+              <p class="name font-weight-bold fs-6 mb-0">Jones Ferdinand</p>
+              <img class="photo rounded-circle border" alt="" src="/assets/images/m header.png" width="20" height="20">
+            </div>
+          </header>
+        
+          <section class="mt-4">
+            <section class="container-fluid">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <p class="card-text text-grey">Unresolved</p>
+                      <h3 class="card-title">60</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card" id="card2">
+                    <div class="card-body text-center">
+                      <p class="card-text text-grey" id="overdue">Overdue</p>
+                      <h3 class="card-title" id="sixteen">16</h3>
+                      <img class="img-fluid position-absolute"  alt="" src="/assets/images/pointing hand.png" width="16" height="16" id="pointing-hand">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <p class="card-text text-grey">Open</p>
+                      <h3 class="card-title">43</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <p class="card-text text-grey">On hold</p>
+                      <h3 class="card-title">64</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+
+        
+          <!--Today's Trend-->
+          <section class="container" style="max-width: 1122px; margin-left: 10px;">
+            <div class="row">
+              <div class="card3">
+                <div class="d-flex" style="height: 100%;">
+                  <div class="text-left pt-5 ps-5 pe-5 pb-2">
+                    <h3 class="card-title1">Today's trends</h3>
+                    <div class="d-flex justify-content-between mb-5">
+                      <p class="text-grey1 m-0">as of 25 May 2019, 09:41 PM</p>
+                      <div class="d-flex">
+                        <div class="d-flex align-items-center me-5">
+                          <div class="me-2 legend-bar" style="background-color: #3751FF;"></div>
+                          <p class="m-0 legend-text">Today</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <div class="me-2 legend-bar" style="background-color: #DFE0EB;"></div>
+                          <p class="m-0 legend-text">Yesterday</p>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="assets/images/full graph.png" alt="graph" width="686px" height="380px">
+                  </div>
+                  <div class="d-flex">
+                    <div class="vr"></div>
+                  </div>
+                  <div class="d-flex w-100 flex-column" style="height: 100%">
+                    <div class="p-4 border-bottom justify-content-between" style="flex: 1;">
+                      <p class="mbt text-center mb-1">Resolved</p>
+                      <p class="mbt2 text-center m-0">449</p>
+                    </div>
+                    
+                    <div class="p-4 border-bottom" style="flex: 1;">
+                      <p class="mbt text-center mb-1">Received</p>
+                      <p class="mbt2 text-center m-0">426</p>
+                    </div>
+
+                    <div class="p-4 border-bottom" style="flex: 1;">
+                      <p class="mbt text-center mb-1">Average first reponse time</p>
+                      <p class="mbt2 text-center m-0">33m</p>
+                    </div>
+
+                    <div class="p-4 border-bottom" style="flex: 1;">
+                      <p class="mbt text-center mb-1">Average reponse time</p>
+                      <p class="mbt2 text-center m-0">3h 8m</p>
+                    </div>
+
+                    <div class="p-4 border-bottom" style="flex: 1;">
+                      <p class="mbt text-center mb-1">Resolution within SLA</p>
+                      <p class="mbt2 text-center m-0">94%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Tickets and Tasks -->
+          <section class="container tickets-and-tasks">
+            <div class="row">
+
+              <div class="col-md-6">
+                <div class="unresolved-tickets card">
+                  <div class="card-name py-3 px-4">
+                    <div class="d-flex justify-content-between">
+                      <h5 class="card-title1" style="color: #252733; font-size: 19px; font-weight: 700; letter-spacing: 0.40px;">Unresolved tickets</h5>
+                      <p class="text-right" style=" color: #3751ff; font-weight: 600; font-size: 14px; line-height: 20px; letter-spacing: 0.20px;">View details</p>
+                    </div>
+                    <div>
+                      <span style="color: #9FA2B4; font-size: 12px; font-weight: 400; line-height: 16px; letter-spacing: 0.10px; word-wrap: break-word">Group: </span>
+                      <span style="color: #4B506D; font-size: 12px; font-weight: 600; letter-spacing: 0.10px; word-wrap: break-word">Support</span>
+                    </div>
+                  </div>
+                  <div class="ticket-details">
+                    <div class="container1 d-flex justify-content-between align-items-center" style="padding-left: 32px; padding-right: 32px; border-bottom: 1px #DFE0EB solid">
+                      <div class="ticket-name">Waiting on Feature Request</div>
+                      <div class="ticket-number">4238</div>
+                    </div >
+
+                    <div class="container1 d-flex justify-content-between align-items-center" style="padding-left: 32px; padding-right: 32px; border-bottom: 1px #DFE0EB solid">
+                      <div class="ticket-name">Awaiting Customer Response</div>
+                      <div class="ticket-number">1005</div>
+                    </div >
+
+                    <div class="container1 d-flex justify-content-between align-items-center" style="padding-left: 32px; padding-right: 32px; border-bottom: 1px #DFE0EB solid">
+                      <div class="ticket-name">Awaiting Developer Fix</div>
+                      <div class="ticket-number">914</div>
+                    </div >
+
+                    <div class="container1 d-flex justify-content-between align-items-center" style="padding-left: 32px; padding-right: 32px;">
+                      <div class="ticket-name">Pending</div>
+                      <div class="ticket-number">281</div>
+                    </div >
+                  
+                  </div>
+                </div>
+              </div>
+              
+              <!-- TASKS -->
+          
+              <section class="col-md-6">
+                <div class="tasks card">
+                  <div class="card-name py-3 px-4">
+                    <div class="d-flex justify-content-between">
+                      <h5 class="card-title1" style="color: #252733; font-size: 19px; font-weight: 700; letter-spacing: 0.40px;">Tasks</h5>
+                      <p class="text-right" style=" color: #3751ff; font-weight: 600; font-size: 14px; line-height: 20px; letter-spacing: 0.20px;">View All</p>
+                    </div>
+                    <div>
+                      <span style="color: #9FA2B4; font-size: 12px; font-weight: 400; line-height: 16px; letter-spacing: 0.10px; word-wrap: break-word">Today </span>
+                    </div>
+                  </div>
+                  <div class="task-details">
+                    <div class="container1 d-flex justify-content-between align-items-center border-bottom" style=" border-color: #DFE0EB;">
+                      <div class="ticket-name" style="color: #C5C7CD;">Create new task</div>
+                      <img class="icon-create-inactive" alt="" src="assets/images/inactive.png">
+                    </div>
+
+                    <div class="container1 d-flex justify-content-between align-items-center border-bottom" style="border-color: #DFE0EB;">
+                      <div class="ticket-name d-flex align-items-center">
+                          <img class="checkbox" src="assets/images/checkbox-inactive.png" alt="">
+                          <span class="ms-2">Finish Ticket Update</span>
+                      </div>
+                      <div class="rounded p-2" style="background-color: #FEC400;">
+                        <p class="text-center text-uppercase text-muted small mb-0">Urgent</p>
+                      </div>
+                    </div> 
+
+                    <div class="container1 d-flex justify-content-between align-items-center border-bottom" style="border-color: #DFE0EB;">
+                      <div class="ticket-name d-flex align-items-center">
+                          <img class="checkbox" src="assets/images/checkbox-inactive.png" alt="">
+                          <span class="ms-2">Create new ticket example</span>
+                      </div>
+                      <div class="rounded p-2" style="background-color: #29CC97;">
+                        <p class="text-center text-uppercase text-muted small mb-0">New</p>
+                      </div>
+                    </div>
+
+                    
+                    <div class="container1 d-flex justify-content-between align-items-center border-bottom" style="border-color: #DFE0EB;">
+                      <div class="ticket-name d-flex align-items-center">
+                          <img class="checkbox" src="assets/images/active.png" alt="">
+                          <span class="ms-2">Update Ticket Report</span>
+                      </div>
+                      <div class="rounded p-2" style="background-color: #F0F1F7;">
+                        <p class="text-center text-uppercase text-muted small mb-0">Default</p>
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+              </section>
+            </div>
+          </section>
+        </div>
+
+      </main>
+
+      
+
+      <!-- JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/2216cb6a92.js" crossorigin="anonymous"></script>
+  </body>
+</html>

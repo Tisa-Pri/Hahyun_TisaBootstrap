@@ -1,0 +1,240 @@
+
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+header,
+.mt-4,
+.tickets-and-tasks {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid,
+.row,
+.card,
+.d-flex,
+.text-center,
+.text-left,
+.text-right,
+.card3,
+.card1,
+.py-3,
+.px-4,
+.container1,
+.tasks,
+.unresolved-tickets {
+  box-sizing: border-box;
+}
+
+
+.row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+
+.main {
+    font-family: Mulish;
+    line-height: normal;
+    letter-spacing: 0.4px;
+  }
+  
+  .sidebar-font {
+    color: #A4A6B3;
+    font-size: 16px;
+  }
+  
+  .sidebar {
+    background-color: #363740;
+  }
+  
+  .container {
+    background-color: #F7F8FC;
+  }
+  
+  .nav-item {
+    border-left: 3px solid #DDE2FF;
+  }
+  
+  .selected {
+    background-color: #9FA2B4;
+    opacity: 0.08;
+    margin-left: -22px;
+  }
+  
+  .dash {
+    color: #A4A6B3;
+  }
+  
+
+  
+  .legend-bar {
+    width: 16px;
+    height: 2px;
+  }
+  
+  .legend-text {
+    font-size: 12px;
+    color: #9FA2B4;
+  }
+  
+  .mbt {
+    font-size: 16px;
+    color: #9FA2B4;
+  }
+  
+  .mbt2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+
+  /* Header */
+  .container-fluid {
+    margin-top: 36px; 
+  }
+  
+  
+  .search {
+    width: 16px;
+    height: 16px;
+    margin-right: 24px;
+  }
+  
+  .notifications {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .bar {
+    width: 1px;
+    height: 32px;
+    margin: 0 34px;
+    color: #DFE0EB;
+  }
+  
+  .name {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    margin-right: 14px;
+  }
+  
+  .photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #DFE0EB;
+    padding: 5px;
+  }
+
+  
+  /* CARDS */
+
+  .card {
+    margin: 30px;
+    border-radius: 8px;
+    border: 1px solid #dfe0eb;
+  }
+  
+  .text-grey {
+    color: #9FA2B4;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    margin: 0;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-title1 {
+    font-weight: bold;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .card-text {
+    margin-bottom: 10px;
+  }
+  
+  #card2 {
+    border-color: #3751FF;
+  }
+  
+  #overdue, #sixteen {
+    color: #3751FF;
+  }
+  
+  .card3 {
+    width: 1150px;
+    height: 546px;
+    flex-shrink: 0;
+    margin: 30px;
+    border-radius: 8px;
+    border: 1px solid #dfe0eb;
+    flex-direction: column;
+    background-color: white;
+  }
+  
+  .text-grey1 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: #9FA2B4;
+  }
+
+  #pointing-hand{
+    top: 84px; left: 178px;
+  }
+
+  /* Tickets Tasks */
+  .container1 {
+    padding-left: 32px; 
+    padding-right: 32px
+  }
+  
+  .ticket-name {
+    margin-bottom:18px; 
+    margin-top: 20px;
+    color: #252733; 
+    font-size: 14px; 
+    font-family: Mulish; 
+    font-weight: 600; 
+    line-height: 20px; 
+    letter-spacing: 0.20px; 
+    word-wrap: break-word;
+  }
+
+  .ticket-number {
+    margin-bottom:18px; 
+    margin-top: 20px;
+    text-align: right; 
+    color: #9FA2B4; 
+    font-size: 14px; 
+    font-family: Mulish; 
+    font-weight: 600; 
+    line-height: 20px; 
+    letter-spacing: 0.20px; 
+    word-wrap: break-word;
+  }
+
+  .checkbox {
+    width: 20px;
+    height: 20px;
+  }
+  
+
+
+  /*# sourceMappingURL=style.css.map */
+  
