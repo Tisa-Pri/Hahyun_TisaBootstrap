@@ -232,7 +232,9 @@ header,
     width: 20px;
     height: 20px;
   }
-
+  #exampleModal {
+    display: flex;
+  }
   
   
 
